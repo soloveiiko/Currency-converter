@@ -1,4 +1,5 @@
-@import 'variables';
+@import 'additional/variables';
+@import 'additional/fonts';
 @import 'header';
 
 html,
@@ -9,7 +10,7 @@ body {
     padding: 0;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
-    background-color: #fff;
+    background-color: $black;
 }
 
 html {
@@ -18,7 +19,7 @@ html {
 
 * {
     box-sizing: inherit;
-    color: $black;
+    color: $yellow;
     line-height: 120%;
 }
 
@@ -26,4 +27,8 @@ html {
     max-width: 1170px;
     margin: 0 auto;
     padding: 0 15px;
+}
+
+h1 {
+    margin: 0;
 }
