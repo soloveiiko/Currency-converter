@@ -8,7 +8,7 @@ class CurrencyConverter extends React.Component {
             <div className="currency-converter__body currency-body">
                 <div className="currency-body__container _container">
                     <CurrencyRow />
-                    <p>=</p>
+                    <p className="currency-body__equal">=</p>
                     <CurrencyRow />
                 </div>
             </div>

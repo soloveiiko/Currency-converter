@@ -1,6 +1,8 @@
 @import 'additional/variables';
+@import 'additional/mixins';
 @import 'additional/fonts';
 @import 'components/header';
+@import 'components/currency-converter';
 
 html,
 body {

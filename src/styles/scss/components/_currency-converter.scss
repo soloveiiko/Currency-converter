@@ -1,0 +1,49 @@
+.currency-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    margin-top: 100px;
+
+    &__equal {
+        text-align: center;
+        margin-left: -50px;
+        font-size: 24px;
+    }
+}
+
+.currency-row {
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+    &__input {
+        @include input-body;
+        width: 350px;
+        height: 50px;
+        padding: 7px 15px;
+        font-size: 18px;
+
+        &:hover {
+            opacity: 0.8;
+        }
+
+        &:focus-visible {
+            opacity: 0.8;
+            border-color: $yellow;
+        }
+    }
+
+    &__select-currency {
+        @include input-body;
+        width: 65px;
+        height: 50px;
+        margin-left: 10px;
+        padding: 7px 12px;
+        font-size: 16px;
+    }
+
+    &__currency-item {}
+}
