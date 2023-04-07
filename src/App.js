@@ -1,6 +1,6 @@
 import React from "react";
-import Header from "./components/Header";
-import CurrencyConverter from "./components/CurrencyConverter";
+import Header from "./components/Header/index";
+import CurrencyConverter from "./components/CurrencyConverter/index";
 import "./styles/css/style.css";
 
 function App() {

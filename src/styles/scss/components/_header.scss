@@ -6,8 +6,16 @@
         height: 100%;
         display: flex;
         align-items: center;
+        justify-content: space-between;
     }
 
-    &__logo {}
+    &__logo {
+        font-size: 26px;
+    }
 
+    &__text {
+        max-width: 230px;
+        font-size: 12px;
+        line-height: 18px;
+    }
 }
