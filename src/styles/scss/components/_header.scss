@@ -18,4 +18,13 @@
         font-size: 12px;
         line-height: 18px;
     }
+
+    &__currency-container {
+        display: flex;
+        font-size: 18px;
+
+        &>*:not(:last-child) {
+            margin-right: 30px;
+        }
+    }
 }
